@@ -9,7 +9,7 @@
 %and also polynomial order D and number of reference points Q, to be
 %used for the interpolation process.
 % 1. a) Reading from sample .wav
-[x,Fs]=audioread('Barracuda.wav');
+[x,Fs]=audioread('INPUT_FILE.wav');
 % b) conversion to mono signal
 [N,S]=size(x);
 if S==2
